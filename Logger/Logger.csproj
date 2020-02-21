@@ -47,6 +47,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetFileName) ..\..\..\..\External.Libs\Full\.</PostBuildEvent>
+    <PostBuildEvent>copy $(TargetFileName) r:\External.Libs\Full\.</PostBuildEvent>
   </PropertyGroup>
 </Project>
